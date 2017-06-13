@@ -1,7 +1,6 @@
 'use strict';
 
 require('isomorphic-fetch');
-require('es6-promise').polyfill();
 
 exports.config = function (options) {
   return new WebhoseioClient(options);
